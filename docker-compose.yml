@@ -1,6 +1,3 @@
-REF: https://www.jenkins.io/doc/book/installing/docker/
-
-```yml
 version: "2.4"
 services:
   blueocean:
@@ -47,4 +44,3 @@ volumes:
   data:
 networks:
   jenkins:
-```
