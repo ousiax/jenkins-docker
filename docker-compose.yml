@@ -77,6 +77,8 @@ services:
           - docker
 volumes:
   docker-certs:
+    name: jenkins-docker-certs
   data:
+    name: jenkins-data
 networks:
   jenkins:
